@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "on",
+    "editor.cursorStyle": "line",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.fontSize": 14,
+    "editor.tabSize": 4
+}
