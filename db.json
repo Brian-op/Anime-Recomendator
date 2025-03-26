@@ -1,2 +1,63 @@
-
+{
+    "anime": {
+      "Shonen": {
+        "description": "Action-packed anime typically featuring young male protagonists on a journey of growth, battles, and friendship.",
+        "titles": [
+          "Jujutsu Kaisen", "Chainsaw Man", "Demon Slayer", "One Piece (Final Saga)", "My Hero Academia (New Seasons)", 
+          "Attack on Titan: Final Season", "Black Clover: Sword of the Wizard King", "Boruto: Two Blue Vortex", 
+          "Kaiju No. 8", "Undead Unluck"
+        ]
+      },
+      "Isekai": {
+        "description": "Anime where characters are transported to another world, often featuring RPG elements and powerful protagonists.",
+        "titles": [
+          "Solo Leveling", "Mushoku Tensei: Jobless Reincarnation", "The Rising of the Shield Hero", "Eminence in Shadow", 
+          "That Time I Got Reincarnated as a Slime", "Re:Zero – Starting Life in Another World", "Jobless Reincarnation", 
+          "Arifureta: From Commonplace to World's Strongest", "No Game No Life", "Tsukimichi: Moonlit Fantasy"
+        ]
+      },
+      "Fantasy": {
+        "description": "Anime set in magical worlds filled with mystical creatures, legendary heroes, and grand adventures.",
+        "titles": [
+          "Fate/Strange Fake", "The Witch and the Beast", "Hell’s Paradise", "Frieren: Beyond Journey’s End", "Berserk: Memorial Edition", 
+          "The Ancient Magus' Bride (New Seasons)", "Record of Ragnarok", "The Executioner and Her Way of Life", "Tower of God (New Season)", "Ragna Crimson"
+        ]
+      },
+      "Sci-Fi": {
+        "description": "Anime that explores futuristic themes, technology, space travel, cybernetics, and artificial intelligence.",
+        "titles": [
+          "Cyberpunk: Edgerunners", "AI no Idenshi", "PLUTO", "Trigun Stampede", "Mobile Suit Gundam: The Witch from Mercury", 
+          "Knights of Sidonia", "ID:INVADED", "No Guns Life", "Expelled from Paradise", "Vivy: Fluorite Eye’s Song"
+        ]
+      },
+      "Psychological": {
+        "description": "Anime that challenges the mind with complex characters, deep storytelling, and intense psychological battles.",
+        "titles": [
+          "Death Note", "Oshi no Ko", "Erased", "Monster", "The Promised Neverland (Season 1)", "Steins;Gate", "Paranoia Agent", 
+          "Lain: Serial Experiments", "Kaiji: Ultimate Survivor", "Welcome to the NHK"
+        ]
+      },
+      "Romance": {
+        "description": "Anime that focuses on relationships, love stories, and emotional connections between characters.",
+        "titles": [
+          "Your Name (Kimi no Na wa)", "A Silent Voice", "Clannad: After Story", "Toradora!", "Horimiya", "My Happy Marriage", 
+          "Kaguya-sama: Love is War (Final Arc)", "The Dangers in My Heart", "Fruits Basket (Remake)", "Yamada-kun to Lv999 no Koi wo Suru"
+        ]
+      },
+      "Comedy": {
+        "description": "Anime designed to entertain with humor, absurd situations, and lighthearted storytelling.",
+        "titles": [
+          "Spy x Family", "Bocchi the Rock!", "Nichijou (My Ordinary Life)", "Grand Blue", "Kubo Won't Let Me Be Invisible", 
+          "Gintama", "Yuru Camp (Laid-Back Camp)", "Uzaki-chan Wants to Hang Out!", "The Great Jahy Will Not Be Defeated!", "Asobi Asobase"
+        ]
+      },
+      "Sports": {
+        "description": "Anime that focuses on competition, teamwork, and the personal growth of athletes in various sports.",
+        "titles": [
+          "Blue Lock", "Haikyuu!! (Final Arc Coming Soon)", "Ao Ashi", "Slam Dunk (Remaster & New Movie)", "Yuri on Ice", 
+          "Re-Main", "Hajime no Ippo (New Season Rumors)", "Kuroko no Basket", "Tsurune", "Sk8 the Infinity"
+        ]
+      }
+    }
+  }
   
