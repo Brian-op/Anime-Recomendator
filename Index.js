@@ -11,7 +11,9 @@ function fetchAnimeData() {
             showGenres(Object.keys(animeData))  
         })
         .catch(error => console.error("Error fetching anime:", error))
+        console.log(fetchAnimeData);
 }
+ 
  
 function  showGenres(genres){
     const genreContainer= document.getElementById("genreContainer")
@@ -26,6 +28,19 @@ function  showGenres(genres){
     });
 }
 
-document.getElementById ("watchlist").addEventListener("submit",(event)=>{
-    event.preventDefault()
-})
+function showAnimeTitles(genre){
+    const animeList=document.getElementById("animeList")
+    animeList.innerHTML="";
+    const animeTitles= animeData[genre]?.titles||{}
+    Object.keys(animeTitles).forEach(title=>{
+        const listItem=document.createElement("li")
+        listItem.textContent=title;
+        listItem.classList.add("anime-title")
+        listItem.addEventListener("click",()=>animeDescription(title,genre))
+        animeList.appendChild(listItem);
+    })
+}
+function animeDescription(title, genre){
+    const descriptionId= document.getElementById("description")
+    descriptionId.textContent=animeData[genre].titles[title]
+}
