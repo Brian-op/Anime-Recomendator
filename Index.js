@@ -9,3 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
 })
  
 
+document.getElementById ("watchlist").addEventListener("submit",(event)=>{
+    event.preventDefault()
+})
