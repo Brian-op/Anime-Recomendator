@@ -3,9 +3,8 @@ let animeData = {};
 document.addEventListener("DOMContentLoaded",()=>{
     fetchAnimeData()
 
-
-function fetchAnimeData() {
-    fetch("http://localhost:3000/anime") 
+    function fetchAnimeData() {
+     fetch("http://localhost:3000/anime") 
         .then(response => response.json()) 
         .then(data => {
             animeData = data;
@@ -15,8 +14,7 @@ function fetchAnimeData() {
             showGenres(Object.keys(animeData))  
         })
          .catch(error => console.error("Error fetching anime:", error))
-        
-}
+    }
 })
  
 function  showGenres(genres){
@@ -40,6 +38,7 @@ function showAnimeTitles(genre){
     const animeList=document.getElementById("animeList")
     animeList.innerHTML="";
     const animeTitles= animeData[genre]?.titles||{}
+    
     Object.keys(animeTitles).forEach(title=>{
         const listItem=document.createElement("li")
         listItem.textContent=title;
@@ -54,3 +53,9 @@ function animeDescription(title, genre){
     const descriptionId= document.getElementById("description")
     descriptionId.textContent=animeData[genre].titles[title]
 }
+//CURD
+//Updating
+const updateButton = document.createElement("button")
+updateButton.textContent="Update"
+updateButton.onclick=()=>updateAnimeDescription(title, genre)
+
