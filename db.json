@@ -1,101 +1,103 @@
 {
-  "Shonen": {
-  "description": "Action-packed anime typically featuring young male protagonists on a journey of growth, battles, and friendship.",
-  "titles": {
-  "Jujutsu Kaisen": "A dark fantasy anime following Yuji Itadori as he fights curses and seeks to control the King of Curses, Sukuna.",
-  "Chainsaw Man": "A brutal action anime about Denji, a young man who merges with a chainsaw demon to hunt devils.",
-  "Demon Slayer": "Tanjiro Kamado seeks revenge against demons after his family is slaughtered and his sister is turned into one.",
-  "One Piece (Final Saga)": "Monkey D. Luffy continues his quest to become the Pirate King, facing powerful enemies in the final saga.",
-  "Attack on Titan: Final Season": "Humanity's last stand against the Titans takes shocking turns as Eren Yeager leads a revolution."
+  "anime": {
+    "Shonen": {
+      "description": "Action-packed anime typically featuring young male protagonists on a journey of growth, battles, and friendship.",
+      "titles": {
+        "Jujutsu Kaisen": "A dark fantasy anime following Yuji Itadori as he fights curses and seeks to control the King of Curses, Sukuna.",
+        "Chainsaw Man": "A brutal action anime about Denji, a young man who merges with a chainsaw demon to hunt devils.",
+        "Demon Slayer": "Tanjiro Kamado seeks revenge against demons after his family is slaughtered and his sister is turned into one.",
+        "One Piece (Final Saga)": "Monkey D. Luffy continues his quest to become the Pirate King, facing powerful enemies in the final saga.",
+        "Attack on Titan: Final Season": "Humanity's last stand against the Titans takes shocking turns as Eren Yeager leads a revolution."
+      }
+    },
+    "Isekai": {
+      "description": "Anime where characters are transported to another world, often featuring RPG elements and powerful protagonists.",
+      "titles": {
+        "Solo Leveling": "Jin-Woo, a weak hunter, gains extraordinary powers and rises to become the world's strongest hunter.",
+        "Mushoku Tensei": "A man is reincarnated in a magical world and seeks to live a better life.",
+        "Re:Zero": "Subaru can rewind time upon death but must endure intense suffering.",
+        "That Time I Got Reincarnated as a Slime": "A man is reborn as a slime and builds a powerful new world."
+      }
+    },
+    "Fantasy": {
+      "description": "Anime set in magical worlds filled with mystical creatures, legendary heroes, and grand adventures.",
+      "titles": {
+        "Fate/Strange Fake": "A unique Holy Grail War unfolds in a city full of powerful mages and servants.",
+        "Berserk": "A brutal story of vengeance and fate following the warrior Guts and his tragic past.",
+        "Tower of God": "A boy climbs a mysterious tower full of trials to reunite with his lost friend."
+      }
+    },
+    "Sci-Fi": {
+      "description": "Anime that explores futuristic themes, technology, space travel, cybernetics, and artificial intelligence.",
+      "titles": {
+        "Cyberpunk: Edgerunners": "A young mercenary struggles to survive in a cyber-enhanced dystopian world.",
+        "PLUTO": "A deep psychological thriller based on Osamu Tezuka’s Astro Boy universe.",
+        "Mobile Suit Gundam: The Witch from Mercury": "A new Gundam series featuring political intrigue and space battles."
+      }
+    },
+    "Psychological": {
+      "description": "Anime that challenges the mind with complex characters, deep storytelling, and intense psychological battles.",
+      "titles": {
+        "Death Note": "A high school student finds a notebook that allows him to kill anyone whose name he writes in it.",
+        "Monster": "A doctor’s life unravels after he saves the life of a young boy who turns out to be a killer.",
+        "Steins;Gate": "A group of friends discovers time travel but faces unforeseen consequences."
+      }
+    },
+    "Romance": {
+      "description": "Anime that focuses on relationships, love stories, and emotional connections between characters.",
+      "titles": {
+        "Your Name": "Two strangers connected through time and dreams try to find each other.",
+        "A Silent Voice": "A former bully seeks redemption by reconnecting with a deaf girl he tormented in the past.",
+        "Toradora!": "Two students with crushes on each other’s best friends form an unlikely bond."
+      }
+    },
+    "Comedy": {
+      "description": "Anime designed to entertain with humor, absurd situations, and lighthearted storytelling.",
+      "titles": {
+        "Spy x Family": "A spy must build a fake family to complete his mission, but his 'family' members have their own secrets.",
+        "Nichijou": "A surreal comedy showcasing bizarre yet hilarious everyday events.",
+        "Gintama": "A samurai and his friends take odd jobs in a world overrun by aliens."
+      }
+    },
+    "Sports": {
+      "description": "Anime that focuses on competition, teamwork, and the personal growth of athletes in various sports.",
+      "titles": {
+        "Blue Lock": "Japan’s best soccer prospects compete to become the ultimate striker.",
+        "Haikyuu!!": "A determined volleyball player and his team strive to reach the top.",
+        "Slam Dunk": "A delinquent joins a high school basketball team to impress a girl."
+      }
+    },
+    "Horror": {
+      "description": "Anime that focuses on terrifying situations, psychological horror, and supernatural elements.",
+      "titles": {
+        "Another": "A cursed classroom leads to mysterious and gruesome deaths.",
+        "Higurashi: When They Cry": "A small village harbors dark secrets and recurring tragedies.",
+        "Parasyte": "A teenager fights for survival when parasites begin taking over human bodies."
+      }
+    },
+    "Mecha": {
+      "description": "Anime that features giant robots piloted by humans in futuristic settings.",
+      "titles": {
+        "Neon Genesis Evangelion": "Teenagers pilot giant mechs to fight monstrous beings known as Angels.",
+        "Gurren Lagann": "A young man joins a rebellion against a tyrannical ruler in a mech-driven world.",
+        "Code Geass": "A strategic genius gains the power to command anyone and leads a revolution."
+      }
+    },
+    "Mystery": {
+      "description": "Anime revolving around solving crimes, uncovering secrets, and engaging in deep investigations.",
+      "titles": {
+        "Detective Conan": "A genius detective trapped in a child's body solves crimes.",
+        "The Promised Neverland": "Orphans discover a horrifying truth about their existence.",
+        "Erased": "A man travels back in time to prevent a series of murders."
+      }
+    },
+    "Slice of Life": {
+      "description": "Anime focusing on the everyday lives and personal experiences of characters.",
+      "titles": {
+        "March Comes in Like a Lion": "A young shogi player navigates personal struggles and relationships.",
+        "Barakamon": "A calligrapher moves to a rural village and finds inspiration in its people.",
+        "Clannad": "A heartfelt drama about love, loss, and family connections."
+      }
+    }
   }
-  },
-  "Isekai": {
-  "description": "Anime where characters are transported to another world, often featuring RPG elements and powerful protagonists.",
-  "titles": {
-  "Solo Leveling": "Jin-Woo, a weak hunter, gains extraordinary powers and rises to become the world's strongest hunter.",
-  "Mushoku Tensei": "A man is reincarnated in a magical world and seeks to live a better life.",
-  "Re:Zero": "Subaru can rewind time upon death but must endure intense suffering.",
-  "That Time I Got Reincarnated as a Slime": "A man is reborn as a slime and builds a powerful new world."
-  }
-  },
-  "Fantasy": {
-  "description": "Anime set in magical worlds filled with mystical creatures, legendary heroes, and grand adventures.",
-  "titles": {
-  "Fate/Strange Fake": "A unique Holy Grail War unfolds in a city full of powerful mages and servants.",
-  "Berserk": "A brutal story of vengeance and fate following the warrior Guts and his tragic past.",
-  "Tower of God": "A boy climbs a mysterious tower full of trials to reunite with his lost friend."
-  }
-  },
-  "Sci-Fi": {
-  "description": "Anime that explores futuristic themes, technology, space travel, cybernetics, and artificial intelligence.",
-  "titles": {
-  "Cyberpunk: Edgerunners": "A young mercenary struggles to survive in a cyber-enhanced dystopian world.",
-  "PLUTO": "A deep psychological thriller based on Osamu Tezuka’s Astro Boy universe.",
-  "Mobile Suit Gundam: The Witch from Mercury": "A new Gundam series featuring political intrigue and space battles."
-  }
-  },
-  "Psychological": {
-  "description": "Anime that challenges the mind with complex characters, deep storytelling, and intense psychological battles.",
-  "titles": {
-  "Death Note": "A high school student finds a notebook that allows him to kill anyone whose name he writes in it.",
-  "Monster": "A doctor’s life unravels after he saves the life of a young boy who turns out to be a killer.",
-  "Steins;Gate": "A group of friends discovers time travel but faces unforeseen consequences."
-  }
-  },
-  "Romance": {
-  "description": "Anime that focuses on relationships, love stories, and emotional connections between characters.",
-  "titles": {
-  "Your Name": "Two strangers connected through time and dreams try to find each other.",
-  "A Silent Voice": "A former bully seeks redemption by reconnecting with a deaf girl he tormented in the past.",
-  "Toradora!": "Two students with crushes on each other’s best friends form an unlikely bond."
-  }
-  },
-  "Comedy": {
-  "description": "Anime designed to entertain with humor, absurd situations, and lighthearted storytelling.",
-  "titles": {
-  "Spy x Family": "A spy must build a fake family to complete his mission, but his 'family' members have their own secrets.",
-  "Nichijou": "A surreal comedy showcasing bizarre yet hilarious everyday events.",
-  "Gintama": "A samurai and his friends take odd jobs in a world overrun by aliens."
-  }
-  },
-  "Sports": {
-  "description": "Anime that focuses on competition, teamwork, and the personal growth of athletes in various sports.",
-  "titles": {
-  "Blue Lock": "Japan’s best soccer prospects compete to become the ultimate striker.",
-  "Haikyuu!!": "A determined volleyball player and his team strive to reach the top.",
-  "Slam Dunk": "A delinquent joins a high school basketball team to impress a girl."
-  }
-  },
-  "Horror": {
-  "description": "Anime that focuses on terrifying situations, psychological horror, and supernatural elements.",
-  "titles": {
-  "Another": "A cursed classroom leads to mysterious and gruesome deaths.",
-  "Higurashi: When They Cry": "A small village harbors dark secrets and recurring tragedies.",
-  "Parasyte": "A teenager fights for survival when parasites begin taking over human bodies."
-  }
-  },
-  "Mecha": {
-  "description": "Anime that features giant robots piloted by humans in futuristic settings.",
-  "titles": {
-  "Neon Genesis Evangelion": "Teenagers pilot giant mechs to fight monstrous beings known as Angels.",
-  "Gurren Lagann": "A young man joins a rebellion against a tyrannical ruler in a mech-driven world.",
-  "Code Geass": "A strategic genius gains the power to command anyone and leads a revolution."
-  }
-  },
-  "Mystery": {
-  "description": "Anime revolving around solving crimes, uncovering secrets, and engaging in deep investigations.",
-  "titles": {
-  "Detective Conan": "A genius detective trapped in a child's body solves crimes.",
-  "The Promised Neverland": "Orphans discover a horrifying truth about their existence.",
-  "Erased": "A man travels back in time to prevent a series of murders."
-  }
-  },
-  "Slice of Life": {
-  "description": "Anime focusing on the everyday lives and personal experiences of characters.",
-  "titles": {
-  "March Comes in Like a Lion": "A young shogi player navigates personal struggles and relationships.",
-  "Barakamon": "A calligrapher moves to a rural village and finds inspiration in its people.",
-  "Clannad": "A heartfelt drama about love, loss, and family connections."
-  }
-  }
-  }
+}
