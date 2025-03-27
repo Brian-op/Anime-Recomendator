@@ -59,3 +59,8 @@ const updateButton = document.createElement("button")
 updateButton.textContent="Update"
 updateButton.onclick=()=>updateAnimeDescription(title, genre)
 
+//Deleting
+const deleteButton = document.createElement("delete")
+deleteButton.textContent="Delete"
+deleteButton.onclick=()=>deleteAnime(title, genre)
+
