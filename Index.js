@@ -1,21 +1,27 @@
 // Store anime data
+let animeData = {}; 
 document.addEventListener("DOMContentLoaded",()=>{
     fetchAnimeData()
-})
-let animeData = {}; 
+
+
 function fetchAnimeData() {
     fetch("http://localhost:3000/anime") 
         .then(response => response.json()) 
         .then(data => {
-            animeData = data.anime;
+            animeData = data;
+
+            console.log(Object.keys(animeData));
+            
             showGenres(Object.keys(animeData))  
         })
-        .catch(error => console.error("Error fetching anime:", error))
-        console.log(fetchAnimeData);
+         .catch(error => console.error("Error fetching anime:", error))
+        
 }
- 
+})
  
 function  showGenres(genres){
+    console.log(genres);
+    
     const genreContainer= document.getElementById("genreContainer")
     genreContainer.innerHTML="";
     genres.forEach(genre => {
@@ -29,6 +35,8 @@ function  showGenres(genres){
 }
 
 function showAnimeTitles(genre){
+    console.log(showAnimeTitles);
+
     const animeList=document.getElementById("animeList")
     animeList.innerHTML="";
     const animeTitles= animeData[genre]?.titles||{}
@@ -41,6 +49,8 @@ function showAnimeTitles(genre){
     })
 }
 function animeDescription(title, genre){
+    console.log(animeDescription);
+    
     const descriptionId= document.getElementById("description")
     descriptionId.textContent=animeData[genre].titles[title]
 }

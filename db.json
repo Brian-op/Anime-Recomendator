@@ -1,62 +1,103 @@
 {
   "anime": {
     "Shonen": {
-      "description": "Action-packed anime typically featuring young male protagonists on a journey of growth, battles, and friendship.",
+      "description": "Action-packed anime featuring young male protagonists, battles, and friendship.",
       "titles": {
-        "Jujutsu Kaisen": "A dark fantasy anime following Yuji Itadori as he fights curses and seeks to control the King of Curses, Sukuna.",
-        "Chainsaw Man": "A brutal action anime about Denji, a young man who merges with a chainsaw demon to hunt devils.",
-        "Demon Slayer": "Tanjiro Kamado seeks revenge against demons after his family is slaughtered and his sister is turned into one.",
-        "One Piece (Final Saga)": "Monkey D. Luffy continues his quest to become the Pirate King, facing powerful enemies in the final saga.",
-        "Attack on Titan: Final Season": "Humanity's last stand against the Titans takes shocking turns as Eren Yeager leads a revolution."
+        "Jujutsu Kaisen": "Yuji Itadori fights curses and seeks to control the King of Curses, Sukuna.",
+        "Chainsaw Man": "Denji, a young man, merges with a chainsaw demon to hunt devils.",
+        "Demon Slayer": "Tanjiro Kamado hunts demons after his family is slaughtered.",
+        "One Piece": "Luffy seeks to become the Pirate King and reach the One Piece treasure.",
+        "My Hero Academia": "Izuku Midoriya trains to become the greatest hero.",
+        "Attack on Titan": "Eren Yeager leads humanity’s fight against the Titans.",
+        "Black Clover": "Asta and Yuno compete to become the Wizard King.",
+        "Kaiju No. 8": "Kafka Hibino gains kaiju powers to fight against monsters.",
+        "Boruto: Two Blue Vortex": "Boruto protects the Hidden Leaf against new threats.",
+        "Sakamoto Days": "A legendary hitman turned family man is dragged back into the underworld."
       }
     },
     "Isekai": {
-      "description": "Anime where characters are transported to another world, often featuring RPG elements and powerful protagonists.",
+      "description": "Anime where characters are transported to another world.",
       "titles": {
-        "Solo Leveling": "Jin-Woo, a weak hunter, gains extraordinary powers and rises to become the world's strongest hunter.",
-        "Mushoku Tensei": "A man is reincarnated in a magical world and seeks to live a better life.",
-        "Re:Zero": "Subaru can rewind time upon death but must endure intense suffering.",
-        "That Time I Got Reincarnated as a Slime": "A man is reborn as a slime and builds a powerful new world."
+        "Solo Leveling": "Jin-Woo gains extraordinary powers and becomes the strongest hunter.",
+        "Mushoku Tensei": "A reincarnated man in a magical world seeks redemption.",
+        "The Rising of the Shield Hero": "Naofumi, betrayed, fights as the Shield Hero.",
+        "Eminence in Shadow": "A boy unknowingly creates a real secret organization.",
+        "That Time I Got Reincarnated as a Slime": "A man reborn as a slime builds a new world.",
+        "Re:Zero": "Subaru can rewind time but faces intense suffering.",
+        "Arifureta": "A bullied student becomes overpowered after being abandoned in a dungeon.",
+        "No Game No Life": "Gaming prodigies are transported to a world ruled by games.",
+        "Tsukimichi: Moonlit Fantasy": "A boy abandoned by a goddess creates his own path.",
+        "Jobless Reincarnation": "A reincarnated man strives for a better life."
       }
     },
     "Fantasy": {
-      "description": "Anime set in magical worlds filled with mystical creatures, legendary heroes, and grand adventures.",
+      "description": "Magical worlds filled with mystical creatures and heroes.",
       "titles": {
-        "Fate/Strange Fake": "A unique Holy Grail War unfolds in a city full of powerful mages and servants.",
-        "Berserk": "A brutal story of vengeance and fate following the warrior Guts and his tragic past.",
-        "Tower of God": "A boy climbs a mysterious tower full of trials to reunite with his lost friend."
+        "Fate/Strange Fake": "A Holy Grail War unfolds in a city full of mages.",
+        "The Witch and the Beast": "A dark fantasy with witches and curses.",
+        "Hell’s Paradise": "Criminals search for immortality on a deadly island.",
+        "Frieren: Beyond Journey’s End": "An elven mage reflects on life after outliving her comrades.",
+        "Berserk": "A warrior seeks vengeance and fights his tragic fate.",
+        "The Ancient Magus' Bride": "A girl with rare magic is taken in by a sorcerer.",
+        "Record of Ragnarok": "The gods battle against humanity’s strongest warriors.",
+        "Tower of God": "A boy climbs a mysterious tower full of trials.",
+        "Ragna Crimson": "A dragon hunter fights an apocalyptic invasion.",
+        "Vinland Saga": "A Viking warrior seeks revenge and redemption."
       }
     },
     "Sci-Fi": {
-      "description": "Anime that explores futuristic themes, technology, space travel, cybernetics, and artificial intelligence.",
+      "description": "Futuristic settings, advanced technology, and space adventures.",
       "titles": {
-        "Cyberpunk: Edgerunners": "A young mercenary struggles to survive in a cyber-enhanced dystopian world.",
-        "PLUTO": "A deep psychological thriller based on Osamu Tezuka’s Astro Boy universe.",
-        "Mobile Suit Gundam: The Witch from Mercury": "A new Gundam series featuring political intrigue and space battles."
+        "Steins;Gate": "A scientist accidentally discovers time travel.",
+        "Cowboy Bebop": "Bounty hunters travel through space seeking adventure.",
+        "Ghost in the Shell": "A cyber-enhanced agent investigates cyber crimes.",
+        "Trigun": "A pacifist gunman with a huge bounty is pursued.",
+        "Psycho-Pass": "A world where crimes are predicted before they happen."
       }
     },
     "Psychological": {
-      "description": "Anime that challenges the mind with complex characters, deep storytelling, and intense psychological battles.",
+      "description": "Anime that explores deep and intense psychological themes.",
       "titles": {
-        "Death Note": "A high school student finds a notebook that allows him to kill anyone whose name he writes in it.",
-        "Monster": "A doctor’s life unravels after he saves the life of a young boy who turns out to be a killer.",
-        "Steins;Gate": "A group of friends discovers time travel but faces unforeseen consequences."
+        "Death Note": "A student gains a notebook that lets him kill anyone.",
+        "Monster": "A doctor hunts a serial killer he once saved.",
+        "Paranoia Agent": "A mysterious attacker terrorizes a city.",
+        "Psycho-Pass": "A society is ruled by a crime-predicting system.",
+        "The Promised Neverland": "Orphans uncover a dark secret about their world.",
+        "Serial Experiments Lain": "A girl’s reality blurs with the digital world.",
+        "Kaiji": "A gambler fights for survival in deadly games.",
+        "Erased": "A man goes back in time to prevent a murder.",
+        "Revolutionary Girl Utena": "A girl fights in duels to protect a princess.",
+        "Madoka Magica": "A dark twist on the magical girl genre."
       }
     },
     "Romance": {
-      "description": "Anime that focuses on relationships, love stories, and emotional connections between characters.",
+      "description": "Love stories filled with emotions, drama, and heartfelt moments.",
       "titles": {
-        "Your Name": "Two strangers connected through time and dreams try to find each other.",
-        "A Silent Voice": "A former bully seeks redemption by reconnecting with a deaf girl he tormented in the past.",
-        "Toradora!": "Two students with crushes on each other’s best friends form an unlikely bond."
+        "Your Lie in April": "A pianist rediscovers his love for music through a girl.",
+        "Toradora!": "Two students with crushes help each other win love.",
+        "Kaguya-sama: Love Is War": "Two geniuses battle in love.",
+        "Clannad": "A boy helps a lonely girl rediscover happiness.",
+        "Horimiya": "A high school romance between two opposites.",
+        "Fruits Basket": "A girl lives with a family cursed to turn into animals.",
+        "The Angel Next Door Spoils Me Rotten": "A kind neighbor takes care of a lazy student.",
+        "Kimi ni Todoke": "A shy girl finds friendship and love.",
+        "Ao Haru Ride": "A girl reconnects with her first love.",
+        "My Dress-Up Darling": "A cosplayer and a craftsman grow close."
       }
     },
     "Comedy": {
-      "description": "Anime designed to entertain with humor, absurd situations, and lighthearted storytelling.",
+      "description": "Humorous anime with absurd situations and lighthearted storytelling.",
       "titles": {
-        "Spy x Family": "A spy must build a fake family to complete his mission, but his 'family' members have their own secrets.",
-        "Nichijou": "A surreal comedy showcasing bizarre yet hilarious everyday events.",
-        "Gintama": "A samurai and his friends take odd jobs in a world overrun by aliens."
+        "Spy x Family": "A spy creates a fake family for a mission.",
+        "Bocchi the Rock!": "A shy girl finds confidence through music.",
+        "Nichijou": "A surreal comedy with bizarre everyday moments.",
+        "Grand Blue": "College students engage in wild diving club antics.",
+        "Gintama": "A samurai and his friends take odd jobs in a world invaded by aliens.",
+        "Yuru Camp": "High school girls enjoy camping trips.",
+        "Uzaki-chan Wants to Hang Out!": "A lively girl teases her introverted upperclassman.",
+        "The Great Jahy Will Not Be Defeated!": "A demon lord struggles after losing her powers.",
+        "Asobi Asobase": "Three eccentric girls create a weird after-school club.",
+        "KonoSuba": "A hilarious isekai parody with a dysfunctional party."
       }
     },
     "Sports": {
