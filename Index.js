@@ -69,12 +69,22 @@ function animeDescription(title, genre){
     const descriptionId= document.getElementById("description")
     descriptionId.textContent=animeData[genre].titles[title]
 
-function createAnimeForm(genre){
+ function createAnimeForm(genre){
     const form = document.createElement("form")
     form.innerHTML=`
     <input type ="text" id="newAnimeTitle" placeholder="New Anime Title" required>
     <input type ="text" id="newAnimeDescription" placeholder="Include a Brief Desctiption" required>
     <button type="submit">Add Anime</button>
     `;
+ form.onsubmit=(event)=>{
+    event.preventDefault();
+    const title= document.getElementById("newAnimeTitle").value.trim()
+    const description = document.getElementById(newAnimeDescription).value.trim()
+    if (title && description){
+        animeData[genre].titles[title]=description
+        showAnimeTitles(genre);
+    }
+ }
+  return form;
 }
 }
