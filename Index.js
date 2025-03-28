@@ -1,10 +1,11 @@
 // Store anime data
 let animeData = {}; 
+
 document.addEventListener("DOMContentLoaded",()=>{
     fetchAnimeData()
 
     function fetchAnimeData() {
-     fetch("http://localhost:3000/anime") 
+     fetch("https://phase1-backend-server.vercel.app/anime") 
         .then(response => response.json()) 
         .then(data => {
             animeData = data;
@@ -13,7 +14,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             
             showGenres(Object.keys(animeData))  
         })
-         .catch(error => console.error("Error fetching anime:", error))
+         //.catch(error => console.error("Error fetching anime:", error))
     }
 })
  
@@ -21,6 +22,8 @@ function  showGenres(genres){
     console.log(genres);
     
     const genreContainer= document.getElementById("genreContainer")
+    console.log(genreContainer);
+    
     genreContainer.innerHTML="";
     genres.forEach(genre => {
         const button=document.createElement("button")
@@ -63,11 +66,18 @@ function showAnimeTitles(genre){
     })
     animeList.appendChild(createAnimeForm(genre))
 }
-function animeDescription(title, genre){
+ function animeDescription(title, genre){
     console.log(animeDescription);
     
     const descriptionId= document.getElementById("description")
     descriptionId.textContent=animeData[genre].titles[title]
+    
+    const image =document.getElementById("animeImage")
+    function animeDescription(title, genre) {
+        const animeInfo = animeData[genre].titles[title]; 
+        descriptionId.textContent = animeInfo.description;
+        image.src = animeInfo.image;
+    }
 
  function createAnimeForm(genre){
     const animeForm = document.createElement("form")
