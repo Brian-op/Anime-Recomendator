@@ -84,8 +84,7 @@ function animeDescription(title, genre){
     if (title && description){
         animeData[genre].titles[title]=description
         showAnimeTitles(genre);
-    }
- }
+    }}
  
   return form;
 }
@@ -96,6 +95,12 @@ function animeDescription(title, genre){
     if(newDescription !== null){
         animeData[genre].titles[title]=newDescription
         animeDescription(title, genre)
+    }}
+ //delete 
+ function deleteAnime(title,genre){
+    if(confirm(`Are you sure you want to delete ${title}?`)){
+        delete animeData[genre].titles[title]
+        showAnimeTitles(genre)
     }
  }
 }
