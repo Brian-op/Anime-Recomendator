@@ -3,142 +3,298 @@
     "Shonen": {
       "description": "Action-packed anime featuring young male protagonists, battles, and friendship.",
       "titles": {
-        "Jujutsu Kaisen": "Yuji Itadori fights curses and seeks to control the King of Curses, Sukuna.",
-        "Chainsaw Man": "Denji, a young man, merges with a chainsaw demon to hunt devils.",
-        "Demon Slayer": "Tanjiro Kamado hunts demons after his family is slaughtered.",
-        "One Piece": "Luffy seeks to become the Pirate King and reach the One Piece treasure.",
-        "My Hero Academia": "Izuku Midoriya trains to become the greatest hero.",
-        "Attack on Titan": "Eren Yeager leads humanity’s fight against the Titans.",
-        "Black Clover": "Asta and Yuno compete to become the Wizard King.",
-        "Kaiju No. 8": "Kafka Hibino gains kaiju powers to fight against monsters.",
-        "Boruto: Two Blue Vortex": "Boruto protects the Hidden Leaf against new threats.",
-        "Sakamoto Days": "A legendary hitman turned family man is dragged back into the underworld."
+        "Jujutsu Kaisen": {
+          "description": "Yuji Itadori fights curses and seeks to control the King of Curses, Sukuna.",
+          "image": "https://i.pinimg.com/474x/ac/b3/55/acb35577cd0d0fca9af33725f34579d2.jpg"
+        },
+        "Chainsaw Man": {
+          "description": "Denji, a young man, merges with a chainsaw demon to hunt devils.",
+          "image": "https://i.pinimg.com/474x/a7/8b/4f/a78b4f0f804ca99a43662fdc7c6df6c6.jpg"
+        },
+        
+        "Demon Slayer": {
+          "description": "Tanjiro Kamado hunts demons after his family is slaughtered.",
+          "image": "https://i.pinimg.com/474x/52/8a/77/528a7756cf5bb3e7b988d5642eb8ae92.jpg"
+        },
+        "One Piece": {
+          "description": "Luffy seeks to become the Pirate King and reach the One Piece treasure.",
+          "image": "https://i.pinimg.com/474x/42/89/a8/4289a867bb8954fe902ade535794c42a.jpg"
+        },
+        "My Hero Academia": {
+          "description": "Izuku Midoriya trains to become the greatest hero.",
+          "image": "https://i.pinimg.com/474x/77/43/d6/7743d6024df473458d39001479803b5d.jpg"
+        },
+        "Attack on Titan": {
+          "description": "Eren Yeager leads humanity’s fight against the Titans.",
+          "image": "https://i.pinimg.com/236x/ba/9e/ba/ba9eba98415477621ab9e8efd0d12772.jpg"
+        },
+        "Black Clover": {
+          "description": "Asta and Yuno compete to become the Wizard King.",
+          "image": "https://i.pinimg.com/474x/cd/1c/27/cd1c27151f95c3226ef7aa3f4a8d20e6.jpg"
+        },
+        "Kaiju No. 8": {
+          "description": "Kafka Hibino gains kaiju powers to fight against monsters.",
+          "image": "https://i.pinimg.com/474x/13/1d/af/131daf970e44336a99e3482904d2db4f.jpg"
+        },
+        "Boruto: Two Blue Vortex": {
+          "description": "Boruto protects the Hidden Leaf against new threats.",
+          "image": "https://i.pinimg.com/474x/53/b8/1d/53b81da91c4c644594eef93a10dfad1f.jpg"
+        },
+        "Sakamoto Days": {
+          "description": "A legendary hitman turned family man is dragged back into the underworld.",
+          "image": "https://i.pinimg.com/236x/0d/7b/90/0d7b90f4e571afe6f57591fe0b978202.jpg"
+        }
       }
     },
     "Isekai": {
       "description": "Anime where characters are transported to another world.",
       "titles": {
-        "Solo Leveling": "Jin-Woo gains extraordinary powers and becomes the strongest hunter.",
-        "Mushoku Tensei": "A reincarnated man in a magical world seeks redemption.",
-        "The Rising of the Shield Hero": "Naofumi, betrayed, fights as the Shield Hero.",
-        "Eminence in Shadow": "A boy unknowingly creates a real secret organization.",
-        "That Time I Got Reincarnated as a Slime": "A man reborn as a slime builds a new world.",
-        "Re:Zero": "Subaru can rewind time but faces intense suffering.",
-        "Arifureta": "A bullied student becomes overpowered after being abandoned in a dungeon.",
-        "No Game No Life": "Gaming prodigies are transported to a world ruled by games.",
-        "Tsukimichi: Moonlit Fantasy": "A boy abandoned by a goddess creates his own path.",
-        "Jobless Reincarnation": "A reincarnated man strives for a better life."
+        "Solo Leveling": {
+          "description": "Jin-Woo gains extraordinary powers and becomes the strongest hunter.",
+          "image": "https://i.pinimg.com/474x/7f/da/8d/7fda8d55bb873716812731909a2236e2.jpg"
+        },
+        "Mushoku Tensei": {
+          "description": "A reincarnated man in a magical world seeks redemption.",
+          "image": "https://i.pinimg.com/474x/ae/95/99/ae9599b35d77249634952aee7d9768e5.jpg"
+        },
+        "The Rising of the Shield Hero": {
+          "description": "Naofumi, betrayed, fights as the Shield Hero.",
+          "image": "https://i.pinimg.com/474x/98/88/80/988880e5b1d58d8ff2da42c6ba18241a.jpg"
+        },
+        "Eminence in Shadow": {
+          "description": "A boy unknowingly creates a real secret organization.",
+          "image": "https://i.pinimg.com/474x/41/6a/ea/416aea9ba2c801b3a6f7b4deb0769fac.jpg"
+        },
+        "That Time I Got Reincarnated as a Slime": {
+          "description": "A man reborn as a slime builds a new world.",
+          "image": "https://i.pinimg.com/236x/38/82/5c/38825c8098d9f47b714dfa08251cd900.jpg"
+        },
+        "Re:Zero": {
+          "description": "Subaru can rewind time but faces intense suffering.",
+          "image": "https://i.pinimg.com/236x/d3/65/97/d36597f7a256d0c765c97f722e74378c.jpg"
+        },
+        "Arifureta": {
+          "description": "A bullied student becomes overpowered after being abandoned in a dungeon.",
+          "image": "https://i.pinimg.com/474x/06/e0/2b/06e02b771f4b9beabb13ce7f44830797.jpg"
+        },
+        "Tsukimichi: Moonlit Fantasy": {
+          "description": "A boy abandoned by a goddess creates his own path.",
+          "image": "https://i.pinimg.com/236x/12/cb/6f/12cb6f0aa315d659288bcfab0ca42b1a.jpg"
+        }
+        
       }
     },
     "Fantasy": {
       "description": "Magical worlds filled with mystical creatures and heroes.",
       "titles": {
-        "Fate/Strange Fake": "A Holy Grail War unfolds in a city full of mages.",
-        "The Witch and the Beast": "A dark fantasy with witches and curses.",
-        "Hell’s Paradise": "Criminals search for immortality on a deadly island.",
-        "Frieren: Beyond Journey’s End": "An elven mage reflects on life after outliving her comrades.",
-        "Berserk": "A warrior seeks vengeance and fights his tragic fate.",
-        "The Ancient Magus' Bride": "A girl with rare magic is taken in by a sorcerer.",
-        "Record of Ragnarok": "The gods battle against humanity’s strongest warriors.",
-        "Tower of God": "A boy climbs a mysterious tower full of trials.",
-        "Ragna Crimson": "A dragon hunter fights an apocalyptic invasion.",
-        "Vinland Saga": "A Viking warrior seeks revenge and redemption."
+        "Fate/Strange Fake": {
+          "description": "A Holy Grail War unfolds in a city full of mages.",
+          "image": "hhttps://i.pinimg.com/236x/c9/68/c9/c968c99f0be15912692d9b9580e86efd.jpg"
+        },
+        "The Witch and the Beast": {
+          "description": "A dark fantasy with witches and curses.",
+          "image": "https://i.pinimg.com/474x/56/84/d1/5684d1bd4c3a0831201d8cb0f91edccc.jpg"
+        },
+        "Hell’s Paradise": {
+          "description": "Criminals search for immortality on a deadly island.",
+          "image": "hhttps://i.pinimg.com/474x/63/41/70/634170fe1f62fd4f3898fddbed0a920d.jpg"
+        },
+        "Frieren: Beyond Journey’s End": {
+          "description": "An elven mage reflects on life after outliving her comrades.",
+          "image": "https://i.pinimg.com/474x/ca/10/ad/ca10ad3ffc391831ba7ad3740daef1b2.jpg"
+        },
+        "Berserk": {
+          "description": "A warrior seeks vengeance and fights his tragic fate.",
+          "image": "https://i.pinimg.com/474x/8e/cb/b2/8ecbb293a94b02931a471628480997ea.jpg"
+        },
+        "The Ancient Magus' Bride": {
+          "description": "A girl with rare magic is taken in by a sorcerer.",
+          "image": "https://i.pinimg.com/236x/39/2e/7c/392e7c27a2f5ee59d1a974bdd463b19b.jpg"
+        },
+        "Record of Ragnarok": {
+          "description": "The gods battle against humanity’s strongest warriors.",
+          "image": "https://i.pinimg.com/236x/91/22/8c/91228c1249aa012cefeaca687f11e224.jpg"
+        },
+        "Tower of God": {
+          "description": "A boy climbs a mysterious tower full of trials.",
+          "image": "https://i.pinimg.com/474x/f3/42/95/f34295ebb5557a4cf02b0c262e96956d.jpg"
+        },
+        "Ragna Crimson": {
+          "description": "A dragon hunter fights an apocalyptic invasion.",
+          "image": "https://i.pinimg.com/474x/d2/9e/fd/d29efdf67505e52be0503f7817620da0.jpg"
+        },
+        "Vinland Saga": {
+          "description": "A Viking warrior seeks revenge and redemption.",
+          "image": "https://i.pinimg.com/474x/36/2c/68/362c68d1f0201143a769aa276d71a8d2.jpg"
+        }
       }
     },
     "Sci-Fi": {
       "description": "Futuristic settings, advanced technology, and space adventures.",
       "titles": {
-        "Steins;Gate": "A scientist accidentally discovers time travel.",
-        "Cowboy Bebop": "Bounty hunters travel through space seeking adventure.",
-        "Ghost in the Shell": "A cyber-enhanced agent investigates cyber crimes.",
-        "Trigun": "A pacifist gunman with a huge bounty is pursued.",
-        "Psycho-Pass": "A world where crimes are predicted before they happen."
+        "Steins;Gate": {
+          "description": "A scientist accidentally discovers time travel.",
+          "image": "https://i.pinimg.com/236x/18/62/68/186268fb006aba90af00bf5e212cf448.jpg"
+        },
+        "Cowboy Bebop": {
+          "description": "Bounty hunters travel through space seeking adventure.",
+          "image": "https://i.pinimg.com/236x/7f/9f/51/7f9f5124c79dc7a0d65b8e4b2516f92f.jpg"
+        },
+        "Ghost in the Shell": {
+          "description": "A cyber-enhanced agent investigates cyber crimes.",
+          "image": "https://i.pinimg.com/236x/ec/24/97/ec24975a546327f42edd355f2e0054ac.jpg"
+        },
+        "Trigun": {
+          "description": "A pacifist gunman with a huge bounty is pursued.",
+          "image": "https://i.pinimg.com/236x/2f/4e/45/2f4e45e06b47e25e7f15c7ee3ce918c8.jpg"
+        },
+        "Psycho-Pass": {
+          "description": "A world where crimes are predicted before they happen.",
+          "image": "https://i.pinimg.com/236x/8b/06/1c/8b061cba258866d4b517247fc2323161.jpg"
+        }
       }
     },
     "Psychological": {
       "description": "Anime that explores deep and intense psychological themes.",
       "titles": {
-        "Death Note": "A student gains a notebook that lets him kill anyone.",
-        "Monster": "A doctor hunts a serial killer he once saved.",
-        "Paranoia Agent": "A mysterious attacker terrorizes a city.",
-        "Psycho-Pass": "A society is ruled by a crime-predicting system.",
-        "The Promised Neverland": "Orphans uncover a dark secret about their world.",
-        "Serial Experiments Lain": "A girl’s reality blurs with the digital world.",
-        "Kaiji": "A gambler fights for survival in deadly games.",
-        "Erased": "A man goes back in time to prevent a murder.",
-        "Revolutionary Girl Utena": "A girl fights in duels to protect a princess.",
-        "Madoka Magica": "A dark twist on the magical girl genre."
+        "Death Note": {
+          "description": "A student gains a notebook that lets him kill anyone.",
+          "image": "https://i.pinimg.com/236x/15/3d/21/153d21466b417f9f6ff431da0eefc534.jpg"
+        },
+        "Monster": {
+          "description": "A doctor hunts a serial killer he once saved.",
+          "image": "https://i.pinimg.com/474x/f5/e0/3a/f5e03a633109fe5a388628047a3dd60b.jpg"
+        },
+        "The Promised Neverland": {
+          "description": "Orphans uncover a dark secret about their world.",
+          "image": "https://i.pinimg.com/474x/13/a9/6b/13a96b03c3e1d60bb526fe4de5c8a16b.jpg"
+        },
+      "Erased": {
+          "description": "A man goes back in time to prevent a murder.",
+          "image": "https://i.pinimg.com/236x/e0/e4/f8/e0e4f83efbe626ec686d2b074cb40ab9.jpg"
+        },
+        "Madoka Magica": {
+          "description": "A dark twist on the magical girl genre.",
+          "image": "https://i.pinimg.com/236x/d6/8d/66/d68d664a72ee2f605f359c0da8f4d6f2.jpg"
+        }
       }
     },
     "Romance": {
       "description": "Love stories filled with emotions, drama, and heartfelt moments.",
       "titles": {
-        "Your Lie in April": "A pianist rediscovers his love for music through a girl.",
-        "Toradora!": "Two students with crushes help each other win love.",
-        "Kaguya-sama: Love Is War": "Two geniuses battle in love.",
-        "Clannad": "A boy helps a lonely girl rediscover happiness.",
-        "Horimiya": "A high school romance between two opposites.",
-        "Fruits Basket": "A girl lives with a family cursed to turn into animals.",
-        "The Angel Next Door Spoils Me Rotten": "A kind neighbor takes care of a lazy student.",
-        "Kimi ni Todoke": "A shy girl finds friendship and love.",
-        "Ao Haru Ride": "A girl reconnects with her first love.",
-        "My Dress-Up Darling": "A cosplayer and a craftsman grow close."
+        "Your Lie in April": {
+          "description": "A pianist rediscovers his love for music through a girl.",
+          "image": "https://i.pinimg.com/236x/45/e5/3c/45e53c9b5224f5a650f23d257ae75320.jpg"
+        },
+        "Toradora!": {
+          "description": "Two students with crushes help each other win love.",
+          "image": "https://i.pinimg.com/236x/2f/d6/2e/2fd62e3fcc7afc85c85a1a1371ef2c3a.jpg"
+        },
+        "Kaguya-sama: Love Is War": {
+          "description": "Two geniuses battle in love.",
+          "image": "https://i.pinimg.com/474x/20/4a/32/204a326ff86752ff7a82eb210b01070b.jpg"
+        },
+        "Clannad": {
+          "description": "A boy helps a lonely girl rediscover happiness.",
+          "image": "https://i.pinimg.com/474x/2f/2f/2c/2f2f2c2ac80b1de231d9395735d2a5cb.jpg"
+        }
+     
       }
     },
     "Comedy": {
       "description": "Humorous anime with absurd situations and lighthearted storytelling.",
       "titles": {
-        "Spy x Family": "A spy creates a fake family for a mission.",
-        "Bocchi the Rock!": "A shy girl finds confidence through music.",
-        "Nichijou": "A surreal comedy with bizarre everyday moments.",
-        "Grand Blue": "College students engage in wild diving club antics.",
-        "Gintama": "A samurai and his friends take odd jobs in a world invaded by aliens.",
-        "Yuru Camp": "High school girls enjoy camping trips.",
-        "Uzaki-chan Wants to Hang Out!": "A lively girl teases her introverted upperclassman.",
-        "The Great Jahy Will Not Be Defeated!": "A demon lord struggles after losing her powers.",
-        "Asobi Asobase": "Three eccentric girls create a weird after-school club.",
-        "KonoSuba": "A hilarious isekai parody with a dysfunctional party."
+        "Spy x Family": {
+          "description": "A spy creates a fake family for a mission.",
+          "image": "https://i.pinimg.com/236x/6d/a9/9a/6da99afe58f57019eb59598aebd81bf6.jpg"
+        },
+        "Bocchi the Rock!": {
+          "description": "A shy girl finds confidence through music.",
+          "image": "https://i.pinimg.com/474x/6a/cf/b2/6acfb2a3d765106c8618a41d72fad609.jpg"
+        },
+        "Nichijou": {
+          "description": "A surreal comedy with bizarre everyday moments.",
+          "image": "https://i.pinimg.com/474x/8e/b0/e2/8eb0e212bb60d9600ccd3dbe0d6a8f9b.jpg"
+        },
+        "Grand Blue": {
+          "description": "College students engage in wild diving club antics.",
+          "image": "hhttps://i.pinimg.com/236x/1e/30/5f/1e305f379994088232bffdb81037ea4e.jpg"
+        },
+        "Gintama": {
+          "description": "A samurai and his friends take odd jobs in a world invaded by aliens.",
+          "image": "https://i.pinimg.com/236x/d6/35/00/d635005f8008f8551b2aaf1b73666174.jpg"
+        },
+        
+        "Asobi Asobase": {
+          "description": "Three eccentric girls create a weird after-school club.",
+          "image": "https://i.pinimg.com/236x/0f/ed/da/0fedda0a74f3ea03f6614b750421ff7b.jpg"
+        },
+        "KonoSuba": {
+          "description": "A hilarious isekai parody with a dysfunctional party.",
+          "image": "hhttps://i.pinimg.com/236x/38/98/71/3898717932923b15dbd58ebb1f3e69d6.jpg"
+        }
       }
     },
     "Sports": {
       "description": "Anime that focuses on competition, teamwork, and the personal growth of athletes in various sports.",
       "titles": {
-        "Blue Lock": "Japan’s best soccer prospects compete to become the ultimate striker.",
-        "Haikyuu!!": "A determined volleyball player and his team strive to reach the top.",
-        "Slam Dunk": "A delinquent joins a high school basketball team to impress a girl."
+        "Blue Lock": {
+          "description": "Japan’s best soccer prospects compete to become the ultimate striker.",
+          "image": "https://i.pinimg.com/474x/9e/e4/18/9ee4180999c90b7075a315fbf9d37e81.jpg"
+        },
+        "Haikyuu!!": {
+          "description": "A determined volleyball player and his team strive to reach the top.",
+          "image": "https://i.pinimg.com/474x/84/3e/b9/843eb9e5fa8becd9e5f5d55d526aa14c.jpg"
+        },
+        "Slam Dunk": {
+          "description": "A delinquent joins a high school basketball team to impress a girl.",
+          "image": "https://i.pinimg.com/236x/4f/bc/8a/4fbc8a84d5aab9a3ae1cb85e66d76b0d.jpg"
+        }
       }
     },
     "Horror": {
       "description": "Anime that focuses on terrifying situations, psychological horror, and supernatural elements.",
       "titles": {
-        "Another": "A cursed classroom leads to mysterious and gruesome deaths.",
-        "Higurashi: When They Cry": "A small village harbors dark secrets and recurring tragedies.",
-        "Parasyte": "A teenager fights for survival when parasites begin taking over human bodies."
+        "Another": {
+          "description": "A cursed classroom leads to mysterious and gruesome deaths.",
+          "image": "https://i.pinimg.com/236x/e0/eb/e2/e0ebe2ed39b39007a29b851359976271.jpg"
+        },
+        "Higurashi: When They Cry": {
+          "description": "A small village harbors dark secrets and recurring tragedies.",
+          "image": "https://i.pinimg.com/736x/71/ed/40/71ed4019853aec5c495bbd1d80c12799.jpg"
+        },
+        "Parasyte": {
+          "description": "A teenager fights for survival when parasites begin taking over human bodies.",
+          "image": "https://i.pinimg.com/236x/3d/e0/f3/3de0f3c542e7af1adfa6601ecf2c3e63.jpg"
+        }
       }
     },
     "Mecha": {
       "description": "Anime that features giant robots piloted by humans in futuristic settings.",
       "titles": {
-        "Neon Genesis Evangelion": "Teenagers pilot giant mechs to fight monstrous beings known as Angels.",
-        "Gurren Lagann": "A young man joins a rebellion against a tyrannical ruler in a mech-driven world.",
-        "Code Geass": "A strategic genius gains the power to command anyone and leads a revolution."
-      }
-    },
-    "Mystery": {
-      "description": "Anime revolving around solving crimes, uncovering secrets, and engaging in deep investigations.",
-      "titles": {
-        "Detective Conan": "A genius detective trapped in a child's body solves crimes.",
-        "The Promised Neverland": "Orphans discover a horrifying truth about their existence.",
-        "Erased": "A man travels back in time to prevent a series of murders."
+        "Neon Genesis Evangelion": {
+          "description": "Teenagers pilot giant mechs to fight monstrous beings known as Angels.",
+          "image": "https://i.pinimg.com/236x/2c/26/e6/2c26e6a93014dcece19d6ce74544af76.jpg"
+        },
+        "Gurren Lagann": {
+          "description": "A young man joins a rebellion against a tyrannical ruler in a mech-driven world.",
+          "image": "https://i.pinimg.com/236x/88/66/9e/88669e5a247e288adcef68d39a1a8a2f.jpg"
+        },
+        "Code Geass": {
+          "description": "A strategic genius gains the power to command anyone and leads a revolution.",
+          "image": "https://i.pinimg.com/236x/3c/56/8a/3c568a3dc6d981855247564cb2eca3bf.jpg"
+        }
       }
     },
     "Slice of Life": {
       "description": "Anime focusing on the everyday lives and personal experiences of characters.",
       "titles": {
-        "March Comes in Like a Lion": "A young shogi player navigates personal struggles and relationships.",
-        "Barakamon": "A calligrapher moves to a rural village and finds inspiration in its people.",
-        "Clannad": "A heartfelt drama about love, loss, and family connections."
+        "March Comes in Like a Lion": {
+          "description": "A young shogi player navigates personal struggles and relationships.",
+          "image": "https://i.pinimg.com/474x/48/2d/38/482d38b4f2131005b533d2ee5f79e6d3.jpg"
+        }
       }
     }
   }
 }
+          
