@@ -58,9 +58,10 @@ function showAnimeTitles(genre){
       deleteButton.onclick=()=>deleteAnime(title, genre)
  
       listItem.appendChild(updateButton)
-       istItem.appendChild(deleteButton)
+       listItem.appendChild(deleteButton)
       listItem.appendChild(listItem)
     })
+    animeList.appendChild(createAnimeForm(genre))
 }
 function animeDescription(title, genre){
     console.log(animeDescription);
@@ -68,4 +69,12 @@ function animeDescription(title, genre){
     const descriptionId= document.getElementById("description")
     descriptionId.textContent=animeData[genre].titles[title]
 
+function createAnimeForm(genre){
+    const form = document.createElement("form")
+    form.innerHTML=`
+    <input type ="text" id="newAnimeTitle" placeholder="New Anime Title" required>
+    <input type ="text" id="newAnimeDescription" placeholder="Include a Brief Desctiption" required>
+    <button type="submit">Add Anime</button>
+    `;
+}
 }
