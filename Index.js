@@ -45,6 +45,21 @@ function showAnimeTitles(genre){
         listItem.classList.add("anime-title")
         listItem.addEventListener("click",()=>animeDescription(title,genre))
         animeList.appendChild(listItem);
+        
+      //CURD buttons
+      //Updating
+       const updateButton = document.createElement("button")
+      updateButton.textContent="Update"
+      updateButton.onclick=()=>updateAnimeDescription(title, genre)
+
+      //Deleting
+      const deleteButton = document.createElement("delete")
+      deleteButton.textContent="Delete"
+      deleteButton.onclick=()=>deleteAnime(title, genre)
+ 
+      listItem.appendChild(updateButton)
+       istItem.appendChild(deleteButton)
+      listItem.appendChild(listItem)
     })
 }
 function animeDescription(title, genre){
@@ -52,15 +67,5 @@ function animeDescription(title, genre){
     
     const descriptionId= document.getElementById("description")
     descriptionId.textContent=animeData[genre].titles[title]
+
 }
-//CURD
-//Updating
-const updateButton = document.createElement("button")
-updateButton.textContent="Update"
-updateButton.onclick=()=>updateAnimeDescription(title, genre)
-
-//Deleting
-const deleteButton = document.createElement("delete")
-deleteButton.textContent="Delete"
-deleteButton.onclick=()=>deleteAnime(title, genre)
-
