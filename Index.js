@@ -77,16 +77,18 @@ function showAnimeTitles(genre){
 
   animeForm.onsubmit=(event)=>{
     event.preventDefault();
-    const title= document.getElementById("newAnimeTitle").value.trim();
-    const description = document.getElementById("newAnimeDescription").value.trim();
+    const title=animeForm.querySelector("[name='title']").value.trim();
+    const description = animeForm.querySelector("[name='description']").value.trim() ;
 
     if (title && description) {
-       if(!animeData[genre].titles){animeData[genre].titles={};
+       if(!animeData[genre]){
+        animeData[genre]={titles:{}};
+       }
     }
         animeData[genre].titles[title] ={description,image:""};
         showAnimeTitles(genre)
-    }
- };
+    };
+ 
  
   return animeForm;
 }
