@@ -80,8 +80,10 @@ function showAnimeTitles(genre){
 
   animeForm.onsubmit=(event)=>{
     event.preventDefault();
-    const title=animeForm.querySelector("[name='title']").value.trim();
-    const description = animeForm.querySelector("[name='description']").value.trim() ;
+    const titleInput=animeForm.querySelector("[name='newAnimeTitle']").value.trim();
+    const descriptionInput = animeForm.querySelector("[name='newAnimeDescription']").value.trim() ;
+    const title= titleInput.value.trim();
+    const description= descriptionInput.value.trim();
 
     if (title && description) {
        if(!animeData[genre]){
