@@ -62,7 +62,7 @@ function showAnimeTitles(genre){
  
       listItem.appendChild(updateButton)
       listItem.appendChild(deleteButton)
-      //listItem.appendChild(listItem)
+      animeList.appendChild(listItem)
     })
     animeList.appendChild(createAnimeForm(genre))
 }
@@ -70,8 +70,11 @@ function showAnimeTitles(genre){
   function createAnimeForm(genre){
     const animeForm = document.createElement("form")
     animeForm.innerHTML=`
+     <input type ="text" name="newAnimeGenre" placeholder="New Anime Genre" required>
     <input type ="text" name="newAnimeTitle" placeholder="New Anime Title" required>
     <input type ="text" name="newAnimeDescription" placeholder="Include a Brief Description" required>
+    <button type="submit">Add Anime</button>
+    <input type ="text" name="newAnimeImage" placeholder="Provide an Image URL" required>
     <button type="submit">Add Anime</button>
     `;
 
@@ -84,11 +87,13 @@ function showAnimeTitles(genre){
        if(!animeData[genre]){
         animeData[genre]={titles:{}};
        }
-    }
+    
         animeData[genre].titles[title] ={description,image:""};
         showAnimeTitles(genre)
-    };
- 
+        titleInput.value="";
+        descriptionInput.value="";
+    }
+ };
  
   return animeForm;
 }
