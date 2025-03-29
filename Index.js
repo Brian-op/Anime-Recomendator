@@ -10,18 +10,17 @@ document.addEventListener("DOMContentLoaded",()=>{
         .then(data => {
             animeData = data;
 
-            console.log(Object.keys(animeData));
-            
+            console.log(Object.keys(animeData));            
             showGenres(Object.keys(animeData))  
         })
-         //.catch(error => console.error("Error fetching anime:", error))
+         .catch(error => console.error("Error fetching anime:", error))
     }
 })
  
 function  showGenres(genres){
     console.log(genres);
     
-    const genreContainer= document.getElementById("genreContainer")
+    const genreContainer= document.getElementById("genreContainer");
     console.log(genreContainer);
     
     genreContainer.innerHTML="";
@@ -36,81 +35,88 @@ function  showGenres(genres){
 }
 
 function showAnimeTitles(genre){
-    console.log(showAnimeTitles);
+    console.log(`Showing titles for genre:${genre}`);
 
     const animeList=document.getElementById("animeList")
     animeList.innerHTML="";
-    const animeTitles= animeData[genre]?.titles||{}
+
+    const animeTitles= animeData[genre]?.titles || {}
     
     Object.keys(animeTitles).forEach(title=>{
         const listItem=document.createElement("li")
         listItem.textContent=title;
         listItem.classList.add("anime-title")
         listItem.addEventListener("click",()=>animeDescription(title,genre))
-        animeList.appendChild(listItem);
+       animeList.appendChild(listItem);
         
-      //CURD buttons
+      //CRUD buttons
       //Updating
        const updateButton = document.createElement("button")
       updateButton.textContent="Update"
       updateButton.onclick=()=>updateAnimeDescription(title, genre)
 
       //Deleting
-      const deleteButton = document.createElement("delete")
+      const deleteButton = document.createElement("button")
       deleteButton.textContent="Delete"
       deleteButton.onclick=()=>deleteAnime(title, genre)
  
       listItem.appendChild(updateButton)
-       listItem.appendChild(deleteButton)
-      listItem.appendChild(listItem)
+      listItem.appendChild(deleteButton)
+      //listItem.appendChild(listItem)
     })
     animeList.appendChild(createAnimeForm(genre))
 }
- function animeDescription(title, genre){
-    console.log(animeDescription);
-    
-    const descriptionId= document.getElementById("description")
-    descriptionId.textContent=animeData[genre].titles[title]
-    
-    const image =document.getElementById("animeImage")
-    function animeDescription(title, genre) {
-        const animeInfo = animeData[genre].titles[title]; 
-        descriptionId.textContent = animeInfo.description;
-        image.src = animeInfo.image;
-    }
-
- function createAnimeForm(genre){
+ 
+  function createAnimeForm(genre){
     const animeForm = document.createElement("form")
     animeForm.innerHTML=`
-    <input type ="text" id="newAnimeTitle" placeholder="New Anime Title" required>
-    <input type ="text" id="newAnimeDescription" placeholder="Include a Brief Desctiption" required>
+    <input type ="text" name="newAnimeTitle" placeholder="New Anime Title" required>
+    <input type ="text" name="newAnimeDescription" placeholder="Include a Brief Description" required>
     <button type="submit">Add Anime</button>
     `;
 
- form.onsubmit=(event)=>{
+  animeForm.onsubmit=(event)=>{
     event.preventDefault();
-    const title= document.getElementById("newAnimeTitle").value.trim()
-    const description = document.getElementById("newAnimeDescription").value.trim()
-    if (title && description){
-        animeData[genre].titles[title]=description
-        showAnimeTitles(genre);
-    }}
+    const title= document.getElementById("newAnimeTitle").value.trim();
+    const description = document.getElementById("newAnimeDescription").value.trim();
+
+    if (title && description) {
+       if(!animeData[genre].titles){animeData[genre].titles={};
+    }
+        animeData[genre].titles[title] ={description,image:""};
+        showAnimeTitles(genre)
+    }
+ };
  
-  return form;
+  return animeForm;
 }
 
  //updating anime description
  function updateAnimeDescription(title, genre) {
-    const newDescription= prompt(`Update description for ${title}:`,animeData[genre].titles[title])
-    if(newDescription !== null){
-        animeData[genre].titles[title]=newDescription
+    const newDescription= prompt(`Update description for ${title}:`,animeData[genre]?.titles[title]?.description);
+    if(newDescription !== null && newDescription.trim()!==""){
+        animeData[genre].titles[title].description=newDescription;
         animeDescription(title, genre)
     }}
  //delete 
  function deleteAnime(title,genre){
     if(confirm(`Are you sure you want to delete ${title}?`)){
-        delete animeData[genre].titles[title]
+        delete animeData[genre].titles[title];
         showAnimeTitles(genre)
     }
  }
-}
+
+ function animeDescription(title, genre){
+    console.log(`Showing anime description for:${title}`);
+   const animeInfo = animeData[genre]?.titles[title];
+   
+   if (animeInfo){
+    const descriptionId = document.getElementById("description")
+    descriptionId.textContent =animeInfo.description
+    console.log(animeDescription);
+    const image = document.getElementById("animeImage")
+    image.src =animeInfo.image
+   }
+   
+  }
+  
