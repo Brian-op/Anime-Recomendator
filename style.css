@@ -12,7 +12,7 @@
 #homebody{
     margin: 0;
     height: 100vh;
-    background-image: url(images/Pasted\ image\ \(4\).png);
+    background-image: url(images/trial\ 1.webp);
     background-size:cover;    
     background-position:center;    
     background-repeat: no-repeat;
@@ -21,8 +21,70 @@
 #aboutbody{
     margin: 0;
     height: 100vh;
-    background-image: url(images/Pasted\ image\ \(2\).png);
+    background-image: url(images/trial\ 2.webp);
     background-size:cover;    
     background-position:center;    
     background-repeat: no-repeat;
+  
+
+}
+#Images{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    
+}
+#animeList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size:large;
+   
+    gap: 20px;
+}
+#description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    font-size: larger;
+    font-style: italic;
+   backdrop-filter: blur(6px);
+   text-transform: capitalize;   
+   color: antiquewhite;
+   background-image: url(images/space.png);
+}
+#animeList{
+color: rgba(27, 255, 7, 0.637);
+font-size: large;
+font-weight: bolder;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.genreButton {
+    margin: 5px;
+    padding: 10px;
+    font-family: monospace;
+   border-radius: 10px;
+   background-color: burlywood;
+    border: none;
+    cursor: pointer;
+}
+.genreButton:hover{
+    color:white;
+    transform: scale(1.3);
+}
+#Welcome{
+color: bisque;
+font-family:'Courier New', Courier, monospace;
+display: flex;
+justify-content: center;
+font-size:90px;
+}
+#al{
+    color: white;
+    font-size: 30px;
 }

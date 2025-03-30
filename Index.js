@@ -73,7 +73,6 @@ function showAnimeTitles(genre){
      <input type ="text" name="newAnimeGenre" placeholder="New Anime Genre" required>
     <input type ="text" name="newAnimeTitle" placeholder="New Anime Title" required>
     <input type ="text" name="newAnimeDescription" placeholder="Include a Brief Description" required>
-    <button type="submit">Add Anime</button>
     <input type ="text" name="newAnimeImage" placeholder="Provide an Image URL" required>
     <button type="submit">Add Anime</button>
     `;
