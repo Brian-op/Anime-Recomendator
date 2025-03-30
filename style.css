@@ -40,8 +40,13 @@ a:hover{
     background-size:cover;    
     background-position:center;    
     background-repeat: no-repeat;
-  
-
+}
+#s-genre{
+    color:antiquewhite;
+    font-weight: 900;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
 #Images{
     display: flex;
@@ -86,8 +91,8 @@ justify-content: space-around;
     font-family: monospace;
    border-radius: 10px;
    background-color: burlywood;
-    border: none;
-    cursor: pointer;
+   cursor: pointer;
+
 }
 .genreButton:hover{
     color:white;
@@ -101,7 +106,14 @@ justify-content: center;
 font-size:90px;
 }
 #al{
-    color: black;
+    color: gold;
     font-size: 30px;
     font-weight:900;
+    display: flex;
+    justify-content: center;
+    
+}
+#hp{
+    display: flex;
+    font-size: 20px;
 }

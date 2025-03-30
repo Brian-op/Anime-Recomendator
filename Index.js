@@ -32,6 +32,7 @@ function  showGenres(genres){
         genreContainer.appendChild (button)
         
     });
+    
 }
 
 function showAnimeTitles(genre){
@@ -73,26 +74,30 @@ function showAnimeTitles(genre){
      <input type ="text" name="newAnimeGenre" placeholder="New Anime Genre" required>
     <input type ="text" name="newAnimeTitle" placeholder="New Anime Title" required>
     <input type ="text" name="newAnimeDescription" placeholder="Include a Brief Description" required>
-    <input type ="text" name="newAnimeImage" placeholder="Provide an Image URL" required>
+    <input type ="url" name="newAnimeImage" placeholder="Provide an Image URL" required>
     <button type="submit">Add Anime</button>
     `;
 
   animeForm.onsubmit=(event)=>{
     event.preventDefault();
-    const titleInput=animeForm.querySelector("[name='newAnimeTitle']").value.trim();
-    const descriptionInput = animeForm.querySelector("[name='newAnimeDescription']").value.trim() ;
+    const titleInput=animeForm.querySelector("[name='newAnimeTitle']");
+    const descriptionInput = animeForm.querySelector("[name='newAnimeDescription']");
+    const imgInput = animeForm.querySelector("[name='newAnimeImage']");
     const title= titleInput.value.trim();
     const description= descriptionInput.value.trim();
+    const image = imgInput.value.trim();
 
-    if (title && description) {
+    if (title && description && image) {
        if(!animeData[genre]){
         animeData[genre]={titles:{}};
        }
     
-        animeData[genre].titles[title] ={description,image:""};
+        animeData[genre].titles[title] ={description,image};
+
         showAnimeTitles(genre)
         titleInput.value="";
         descriptionInput.value="";
+        imgInput.value="";
     }
  };
  
