@@ -7,7 +7,13 @@
 }
 #homeNav{
     display: flex;
-
+}
+a{
+    color: gold;
+}    
+a:hover{
+    color: white;
+    transform: scale(1.2);
 }
 #homebody{
     margin: 0;
@@ -17,6 +23,15 @@
     background-position:center;    
     background-repeat: no-repeat;
 
+}
+
+#p{
+    color: aliceblue;
+    font-size: x-large;
+}
+#intro{
+    color:white;
+    font-size: x-large;
 }
 #aboutbody{
     margin: 0;
@@ -34,6 +49,7 @@
     justify-content: center;
     
 }
+
 #animeList{
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +101,7 @@ justify-content: center;
 font-size:90px;
 }
 #al{
-    color: white;
+    color: black;
     font-size: 30px;
+    font-weight:900;
 }
