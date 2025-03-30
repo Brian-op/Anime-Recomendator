@@ -7,13 +7,15 @@
 }
 #homeNav{
     display: flex;
+    display: flex;
+    justify-content: center;
 }
 a{
     color: gold;
 }    
 a:hover{
     color: white;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #homebody{
     margin: 0;
@@ -26,11 +28,11 @@ a:hover{
 }
 
 #p{
-    color: aliceblue;
+    color: aquamarine;
     font-size: x-large;
 }
 #intro{
-    color:white;
+    color:azure;
     font-size: x-large;
 }
 #aboutbody{
@@ -67,7 +69,7 @@ a:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 35px;
     font-size: larger;
     font-style: italic;
    backdrop-filter: blur(6px);
@@ -76,9 +78,9 @@ a:hover{
    background-image: url(images/space.png);
 }
 #animeList{
-color: rgba(27, 255, 7, 0.637);
+color:aqua;
 font-size: large;
-font-weight: bolder;
+font-weight:500px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
@@ -116,4 +118,16 @@ font-size:90px;
 #hp{
     display: flex;
     font-size: 20px;
+}
+#at{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#watch{
+    display: flex;
+    justify-content: end;
+}
+#w1{
+    color: aqua;
 }
